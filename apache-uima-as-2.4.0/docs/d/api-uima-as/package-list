@@ -1,0 +1,11 @@
+org.apache.uima.aae.client
+org.apache.uima.aae.error
+org.apache.uima.aae.jmx.monitor
+org.apache.uima.aae.monitor.statistics
+org.apache.uima.adapter.jms.activemq
+org.apache.uima.adapter.jms.client
+org.apache.uima.adapter.jms.service
+org.apache.uima.camel
+org.apache.uima.examples.as
+org.apache.uima.resourceSpecifier.factory
+org.apache.uima.resourceSpecifier.factory.impl

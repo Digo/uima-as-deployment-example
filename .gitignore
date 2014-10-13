@@ -1,0 +1,34 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.mtj.tmp/
+
+hs_err_pid*
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+uima.log*
+log/
