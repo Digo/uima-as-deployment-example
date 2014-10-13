@@ -19,13 +19,13 @@ Above mvn command will also copy all dependency jars to target/dependency folder
 Usage
 -----
 
-deply default scnlp to MU server on port 61616:
+deploy default scnlp to MU server on port 61616:
 ```sh
 mvn install && ./deployScnlpAs.sh
 ```
 custom deployment with non-default descriptor and broker url
 ```sh
-./deployScnlpAs.sh PATH_TO_DELOYMENT.XML BROKER_URL:PORT 
+./deployScnlpAs.sh PATH_TO_DEPLOYMENT_DESC.XML BROKER_URL:PORT 
 ```	
 
 License
