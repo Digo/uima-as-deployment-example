@@ -6,7 +6,7 @@ This repository contains an [UIMA-AS](http://uima.apache.org/doc-uimaas-what.htm
 
 Prerequisite
 ----------
-- Follow the tutorial in the UIMA-AS [README](http://svn.apache.org/viewvc/uima/uima-as/tags/uima-as-1.4.0/README?view=co) and understand the basics of UIMA-AS command-line tools.
+- Follow the tutorial in the UIMA-AS [README](https://github.com/Digo/uima-as-deployment-example/blob/master/apache-uima-as-2.4.0/README) and understand the basics of UIMA-AS command-line tools.
 - A running UIMA-AS broker.
 
 Installation
