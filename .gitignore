@@ -32,3 +32,4 @@ release.properties
 
 uima.log*
 log/
+apache-uima-as-2.4.0/amq/

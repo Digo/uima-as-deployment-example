@@ -16,16 +16,28 @@ mvn install
 ```
 Above mvn command will also copy all dependency jars to target/dependency folder.
 
+
+If you don't have a broker running, use following commands to start a broker locally:
+```sh
+cd ./apache-uima-as-2.4.0
+./startBroker_localhost.sh
+```
+
 Usage
 -----
 
-deploy default scnlp to MU server on port 61616:
+Deploy scnlp service to localhost on port 61616:
 ```sh
 mvn install && ./deployScnlpAs.sh
 ```
 custom deployment with non-default descriptor and broker url
 ```sh
 ./deployScnlpAs.sh PATH_TO_DEPLOYMENT_DESC.XML BROKER_URL:PORT 
+```	
+
+To test the deployed service, try:
+```sh
+mvn compile exec:java -Dexec.mainClass=edu.cmu.lti.oaqa.annotators.scnlp.StanfordCoreNLPExample
 ```	
 
 License

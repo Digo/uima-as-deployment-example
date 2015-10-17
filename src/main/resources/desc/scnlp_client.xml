@@ -1,7 +1,7 @@
 <customResourceSpecifier xmlns="http://uima.apache.org/resourceSpecifier">
    <resourceClassName>org.apache.uima.aae.jms_adapter.JmsAnalysisEngineServiceAdapter</resourceClassName>
    <parameters>
-     <parameter name="brokerURL" value="tcp://mu.lti.cs.cmu.edu:61616"/>
+     <parameter name="brokerURL" value="tcp://localhost:61616"/>
      <parameter name="endpoint" value="ScnlpQueue"/>
      <parameter name="timeout" value="10000"/>
      <parameter name="getmetatimeout" value="500"/>
